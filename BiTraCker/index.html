@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>BiTraCker</title>
+</head>
+
+<body>
+      <!-- Cabeçalho -->
+    <header class="header">
+                <nav class="navbar navbar-expand-lg navbar-dark px-4 py-3">
+                  <div class="container-fluid">
+                      <a class="logo text-light fs-1" href="#">₿ITRACKER</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ms-auto">
+                              <li class="nav-item">
+                                  <a class="navItens text-light fs-2" aria-current="page" href="#">Criptomoedas</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="navItens text-light fs-2" href="#">Receitas</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="navItens text-light fs-2" href="#">Despesas</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="navItens text-light fs-2" href="#">Relatórios</a>
+                              </li>
+                              <li class="nav-item border border rounded-2 px-2">
+                                  <a class="navItens text-light fs-2" href="#">Login</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+        </nav>
+
+    </header>
+    <!-- Conteúdo principal - tela de Login -->
+    <main>
+        <section class="section1 mt-5">
+          <h2 class="text-center">Controle suas receitas e despesas com facilidade!</h2>
+        </section>
+
+        <section class="section2">
+          <div class="login-card">
+            <div class="div-logo text-center mb-3">
+              <h2 class="logo fs-1">₿ITRACKER</h2>
+            </div>
+            <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="true">Login</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register" aria-selected="false">Cadastre-se</button>
+              </li>
+            </ul>
+        
+            <button class="btn btn-outline-primary w-100 mb-2">
+              <i class="bi bi-google"></i> Entrar com Google
+            </button>
+            <button class="btn btn-outline-dark w-100 mb-3">
+              <i class="bi bi-apple"></i> Entrar com Apple
+            </button>
+        
+            <div class="div-mail">ou continue com seu email</div>
+        
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label visually-hidden">Endereço de email</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                  <input type="email" class="form-control" id="email" placeholder="Endereço de email">
+                </div>
+              </div>
+        
+              <div class="mb-3">
+                <label for="password" class="form-label visually-hidden">Senha</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                  <input type="password" class="form-control" id="password" placeholder="Senha">
+                  <span class="input-group-text"><i class="bi bi-eye"></i></span>
+                </div>
+              </div>
+        
+              <div class="text-center mb-3">
+                <a href="#" class="text-decoration-none">Esqueceu sua senha?</a>
+              </div>
+        
+              <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+        
+            <p class="termos text-center mt-4" style="font-size: 1rem;">
+              Ao fazer login com uma conta, você concorda com os <a href="#" class="text-decoration-none">Termos de Serviço</a> e a <a href="#" class="text-decoration-none">Política de Privacidade</a>.
+            </p>
+          </div>
+        </section>
+        
+
+    </main>
+
+    <!-- rodapé -->
+    <footer class="text-white py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Logo e Descrição -->
+          <div class="col-md-4 mb-3">
+            <h2 class="logo fw-bold fs-1">₿ITRACKER</h2>
+          </div>
+          
+          <!-- Links úteis -->
+          <div class="col-md-4 mb-3">
+            <h3 class="link-footer fw-bold mb-3">Links úteis</h3>
+            <ul class="list-unstyled">
+              <li class="mt-1"><a href="#" class="text-white text-decoration-none">Sobre nós</a></li>
+              <li class="mt-1"><a href="#" class="text-white text-decoration-none">Contato</a></li>
+              <li class="mt-1"><a href="#" class="text-white text-decoration-none">Termos de Uso</a></li>
+              <li class="mt-1"><a href="#" class="text-white text-decoration-none">Política de Privacidade</a></li>
+            </ul>
+          </div>
+    
+          <!-- Redes Sociais -->
+          <div class="col-md-4 mb-3">
+            <h3 class="link-footer fw-bold mb-3">Siga-nos</h3>
+            <div class="d-flex gap-3">
+              <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="btn btn-outline-light btn-lg rounded-circle">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Rodapé final -->
+        <div class="link-footer text-center mt-3">
+          <small>© 2024 ₿ITRACKER. Todos os direitos reservados.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
